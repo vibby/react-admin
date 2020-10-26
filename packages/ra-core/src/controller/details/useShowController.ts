@@ -100,10 +100,6 @@ export const useShowController = <RecordType extends Record = Record>(
         resource,
         basePath,
         record,
-        hasCreate,
-        hasEdit,
-        hasList,
-        hasShow,
         version,
     };
 };

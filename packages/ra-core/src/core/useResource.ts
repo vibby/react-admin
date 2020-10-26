@@ -25,7 +25,7 @@ export const useResource = <
          * @deprecated - to be removed in 4.0
          */
         if (process.env.NODE_ENV !== 'production') {
-            console.trace(
+            console.warn(
                 "Any react-admin components must be used inside a <ResourceContextProvider>. Relying on props rather than context to get the resource data is deprecated and won't be supported in the next major version of react-admin."
             );
         }
